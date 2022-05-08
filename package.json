@@ -1,6 +1,6 @@
 {
-    "title": "Business Frontpage",
-    "name": "startbootstrap-business-frontpage",
+    "title": "Redridge Digital",
+    "name": "Bootstrap - template with php post",
     "version": "5.0.8",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A simple business HTML landing page built with Bootstrap",
+    "description": "A simple business HTML landing page built for Red Ridge Digital",
     "keywords": [
         "css",
         "sass",
@@ -21,20 +21,17 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template/business-frontpage",
+    "homepage": "https://redridgedigital.com",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-frontpage/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://support.redridgedigital.com.com",
+        "email": "support@redridge.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Will Sanchez",
     "contributors": [
         "David Miller (https://davidmiller.io/)"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-frontpage.git"
-    },
+
     "dependencies": {
         "bootstrap": "5.1.3"
     },
