@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css"> -->
+    <title>Application Form</title>
+
+</head>
+
+
+
+<body>
+
+    <!-- Navigation -->
+
+    <!-- Contact US FORM-->
+    <div class="container shadow margin-top">
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Apply Today!</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Please fill out the information below.</p>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="application.php" enctype="multipart/form-data" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+
+
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="phone" name="phone" class="form-control">
+                                    <label for="phone" class="">Phone #</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <select required onchange="" id="store" class="dropdown form-control" name="store">
+                                        <option id="defaulted" value=""> Please select Your Location</option>
+                                        <option value="63">3126 S Garnett Rd Suite B, Tulsa, OK 74146</option>
+                                        <option value="72">540 W Main St, Norman, OK 73069</option>
+                                        <option value="67">1440 N Hwy 77 Ste 7, Waxahachie, TX 75165</option>
+                                        <option value="73">1708 E 2nd St, Edmond, OK 73034</option>
+                                        <option value="83">2321 S Air Depot Blvd Ste 101, Oklahoma City, OK 73110</option>
+                                        <option value="90">8955 S Memorial Dr Ste H, Tulsa, OK 74133</option>
+                                        <option value="279">2435 W. Kenosha Avenue, Broken Arrow, OK 74011</option>
+                                        <option value="336">Corpus Christy, TX</option>
+                                        <option value="328">202 N. 291 Hwy Ste A / B / C, Liberty, MO 64068</option>
+                                        <option value="148">4949 S Peoria Ave, Tulsa, OK 74105</option>
+                                        <option value="559">4990 Roe Blvd, Mission, KS 66205</option>
+                                        <option value="721">9540 N Garnett Rd Ste 107-109, Owasso, OK 74055</option>
+                                        <option value="104">319 E Battlefield Rd Ste D, Springfield, MO 65807</option>
+                                        <option value="716">7341 S Western Ave, Oklahoma City, OK 73139</option>
+                                        <option value="884">1602 S Rangeline Rd Suite E, Joplin, MO 64801</option>
+                                        <option value="901">3604 W Walnut St, Rogers, AR 72756</option>
+                                        <option value="7013">2639 SW 29th ST OKC, 73119</option>
+                                        <option value="other">Other/Not Listed</option>
+                                        </select>
+                                    <p>Select your store Location</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Avalibility</h2>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="monday" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Monday</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="tuesday" value="option2">
+                                    <label class="form-check-label" for="inlineCheckbox2">Tuesday</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="wednesday" value="option3">
+                                    <label class="form-check-label" for="inlineCheckbox3">Wednesday</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" name="thursday" value="option4">
+                                    <label class="form-check-label" for="inlineCheckbox4">Thursday</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" name="friday" value="option5">
+                                    <label class="form-check-label" for="inlineCheckbox5">Friday</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox6" name="saturday" value="option6">
+                                    <label class="form-check-label" for="inlineCheckbox6">Saturday</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox7" name="Sunday" value="option7">
+                                    <label class="form-check-label" for="inlineCheckbox7">Sunday</label>
+                                </div>
+                                <hr>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox8" name="am" value="option8">
+                                    <label class="form-check-label" for="inlineCheckbox8">AM</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox9" name="pm" value="option9">
+                                    <label class="form-check-label" for="inlineCheckbox9">PM</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox10" name="both" value="option10">
+                                    <label class="form-check-label" for="inlineCheckbox10">BOTH</label>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <hr>
+                                <h2>Employment History</h2>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="history" name="history" id="history">
+                                    <label class="form-check-label" for="history">
+                                      Do you have any previous employment history? if so, please provide a brief description of your experience.
+                                    </label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12">
+                                <h2>General</h2>
+                            </div>
+
+                            <!--Grid row-->
+                            <div class="row">
+                                <hr>
+                                <div class="col-md-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="age" value="age" id="age">
+                                        <label class="form-check-label" for="age">
+                                      Are you at least 16 years of age?
+                                    </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="proof" value="proof" id="proof">
+                                        <label class="form-check-label" for="proof">
+                                      If hired, can you show proof of your legal right to work in the United States?
+                                    </label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12">
+                                    <!-- <hr>
+                                    <h2>Resume</h2>
+                                    Select file to upload (PDF):
+                                    <input type="file" name="uploaded_file" id="fileToUpload"> -->
+                    </form>
+                    </div>
+                    </div>
+                    <!--Grid row-->
+
+                    </div>
+                    <!--Grid row-->
+
+
+                    </form>
+
+                    <div style="padding-top: 10px;" class="text-center text-md-left">
+                        <a class="btn btn-primary pad" onclick="validateForm()">Send</a>
+                    </div>
+                    <div id="status" class="textWarning"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Costley Entertainment</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Direct Support</h6>
+                            <p class="card-text">Email: <span class="text-success">support@costleyentertainment.com</span></p>
+                            <a href="#" class="card-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+    </div>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+
+    <!--Grid column-->
+
+    </div>
+
+    </section>
+    </div>
+    <!--Section: Contact v.2-->
+    <!-- FOOTER -->
+    <footer class="container">
+        <p>© 2019-2020 Costley Entertainment, Inc.
+    </footer>
+
+    <!--Section: Contact v.2-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="applicationForm.js"></script>
+</body>
+
+</html>
